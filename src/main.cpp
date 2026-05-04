@@ -10,7 +10,7 @@ Adafruit_ADXL345_Unified accel = Adafruit_ADXL345_Unified(12345);
 float motionThreshold = 1.5;   // anpassen (m/s^2 Differenz)
 float smoothingFactor = 0.9;   // Low-pass filter
 
-float prevMagnitude = 0;
+float prevMagnitude = 10;
 float smoothMagnitude = 0;
 
 void setup() {
